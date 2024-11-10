@@ -2,20 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+@font-face {
+	font-family: "Yekan Bakh VF";
+	src: url("../../public/assets/fonts/YekanBakh-VF.ttf");
+	font-weight: 300;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+	font-family: "Yekan Bakh Fa";
+	src: url("../../public/assets/fonts/YekanBakhFaNum-Regular.ttf");
+	font-weight: 100;
 }

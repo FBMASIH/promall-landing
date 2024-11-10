@@ -8,10 +8,13 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        yekanbakh: ["Yekan Bakh VF", "Yekan Bakh Fa"],
       },
+      backgroundImage: {
+        gradiant: "linear-gradient(243.18deg, #100F17 0%, #1E2128 100%)",
+      },
+     
     },
   },
   plugins: [],
