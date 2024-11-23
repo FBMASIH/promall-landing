@@ -1,6 +1,8 @@
 import type { Config } from "tailwindcss";
+import { nextui } from "@nextui-org/theme";
 
 export default {
+  darkMode: ["class"],
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,6 +10,9 @@ export default {
   ],
   theme: {
     extend: {
+      boxShadow: {  
+        'head': '0px 4px 26px 14px rgba(0, 0, 0, 0.53)',  
+      },  
       fontFamily: {
         yekanbakh: ["Yekan Bakh VF", "Yekan Bakh Fa"],
       },

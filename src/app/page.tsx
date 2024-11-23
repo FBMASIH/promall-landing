@@ -1,9 +1,18 @@
-import Landing from "@/components/Landing/Landing";
+"use client"
+import Main from "@/components/Heading/Main";
 
-export default function Home() {
+const Page = () => {
+
   return (
-   <div>
-        <Landing />
-   </div>
+    <div  className="mx-auto overflow-x-hidden " >
+      <Main />
+  
+    </div>
   );
-}
+};
+
+export default Page;
+
+
+
+
