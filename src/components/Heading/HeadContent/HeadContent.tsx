@@ -16,7 +16,7 @@ function HeadContent() {
         exit="exit"
         variants={slideVariants}
         transition={{ duration: 0.8, ease: "easeOut", delay: 4 }}
-        className=" col-span-1 ml-20  w-72 h-[480px] background-image bg-cover z-40 relative "
+        className=" col-span-1 ml-20  w-72 h-[480px] background-image bg-cover relative "
         style={{ backgroundImage: `url(/iphone.png)` }}
       ></motion.div>
       <div className="right-content col-span-2 text-white text-center flex flex-col justify-normal items-center gap-1 mt-32">

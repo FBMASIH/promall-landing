@@ -13,7 +13,10 @@
   src: url("../../public/assets/fonts/YekanBakhFaNum-Regular.ttf");
   font-weight: 100;
 }
-
 body::-webkit-scrollbar {
   display: none !important;
+}
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
