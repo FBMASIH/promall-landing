@@ -1,6 +1,7 @@
 import React from "react";
 import { HiOutlineDownload } from "react-icons/hi";
 import { motion } from "framer-motion";
+import Phone from "./Phone";
 
 function HeadContent() {
   const slideVariants = {
@@ -9,17 +10,23 @@ function HeadContent() {
     exit: { y: "-100%", opacity: 0 },
   };
   return (
-    <div className="grid grid-cols-3 absolute top-20 ">
+    <div className="grid grid-cols-3 absolute top-20  gap-x-14">
       <motion.div
         initial="hidden"
         animate="visible"
         exit="exit"
         variants={slideVariants}
         transition={{ duration: 0.8, ease: "easeOut", delay: 4 }}
-        className=" col-span-1 ml-20  w-72 h-[480px] background-image bg-cover relative "
-        style={{ backgroundImage: `url(/iphone.png)` }}
-      ></motion.div>
-      <div className="right-content col-span-2 text-white text-center flex flex-col justify-normal items-center gap-1 mt-32">
+        className=" col-span-1 ml-20    bg-mobile w-[260px] h-[490px] background-image  rounded-t-3xl  relative flex justify-center items-center "
+      >
+        <div
+          className="w-72 h-[500px] absolute  bg-cover  mt-[-10px]"
+          style={{ backgroundImage: `url(/iphone.png)` }}
+        >
+          <Phone />
+        </div>
+      </motion.div>
+      <div className="right-content col-span-2  text-white text-center flex flex-col justify-normal items-center gap-1 mt-32">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -57,4 +64,3 @@ function HeadContent() {
 }
 
 export default HeadContent;
-

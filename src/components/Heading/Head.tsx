@@ -35,7 +35,7 @@ export default function Head() {
         } rounded-2xl transition-all duration-300 ease-in  shadow-head`}
       >
         {/* Nav top  */}
-        <div className={`flex justify-between   ${screenFull ? "p-4" : ""} `}>
+        <div className={`flex justify-between    `}>
           <LogoComponents isMoved={isMoved} />
           <Navbar />
           <NavRight handleScreenFull={handleScreenFull} screenFull={screenFull} />
