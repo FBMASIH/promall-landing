@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  overflow-x: hidden;
+}
+
 @font-face {
   font-family: "Yekan Bakh VF";
   src: url("../../public/assets/fonts/YekanBakh-VF.ttf");
