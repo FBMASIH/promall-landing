@@ -66,11 +66,4 @@ export default function Navbar() {
   );
 }
 
-// box-shadow: 0px 4px 5.7px 0px #00000069;
-// box-shadow: 0px 0px 24.5px 0px #AED4FC12;
-// background: #202426CF;
 
-// box-shadow: ;
-
-// box-shadow: 0px 20px 25px -18px #AED4FC33;
-// box-shadow: 0px 8px 10px -5px #AED4FC54;

@@ -17,7 +17,7 @@ function HeadContent() {
         exit="exit"
         variants={slideVariants}
         transition={{ duration: 0.8, ease: "easeOut", delay: 4 }}
-        className=" col-span-1 ml-20    bg-mobile w-[260px] h-[490px] background-image  rounded-t-3xl  relative flex justify-center items-center "
+        className=" col-span-1 ml-20    bg-phone w-[260px] h-[490px] background-image  rounded-t-3xl  relative flex justify-center items-center "
       >
         <div
           className="w-72 h-[500px] absolute  bg-cover  mt-[-10px]"
@@ -64,3 +64,6 @@ function HeadContent() {
 }
 
 export default HeadContent;
+
+background:;
+

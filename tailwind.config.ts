@@ -18,8 +18,12 @@ export default {
       },
       backgroundImage: {
         gradient: "linear-gradient(243.18deg, #100F17 0%, #1E2128 100%)",
+        phone:" linear-gradient(168.05deg, #111827 0%, #000000 100%)" ,
+        dashboard : "linear-gradient(116.38deg, rgba(32, 36, 38, 0.47) 24.11%, rgba(17, 17, 18, 0.47) 75.89%)"
+
       },
     },
   },
   plugins: [nextui()],
 } satisfies Config;
+
